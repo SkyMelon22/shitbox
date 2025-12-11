@@ -5,7 +5,7 @@ import java.util.Map;
 /**
  * Immutable container for the results of a text analysis. An instance of this
  * class is returned by {@link TextAnalyzer#analyze(String)} and holds
- * statistics about word occurrences per topic as well as keyword counts.
+ * statics about word occurrences per topic as well as keyword counts.
  */
 public class AnalysisResult {
     /** Counts of matched words for each topic. */
